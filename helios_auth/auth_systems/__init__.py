@@ -1,7 +1,7 @@
 
 AUTH_SYSTEMS = {}
 
-import twitter, password, cas, facebook, google, yahoo, linkedin, clever
+import twitter, password, cas, facebook, google, yahoo, linkedin, clever, wp_oauth
 import ldapauth, shibboleth
 
 AUTH_SYSTEMS['twitter'] = twitter
@@ -14,6 +14,7 @@ AUTH_SYSTEMS['yahoo'] = yahoo
 AUTH_SYSTEMS['clever'] = clever
 AUTH_SYSTEMS['ldap'] = ldapauth
 AUTH_SYSTEMS['shibboleth'] = shibboleth
+AUTH_SYSTEMS['wp_oauth'] = wp_oauth
 
 # not ready
 #import live

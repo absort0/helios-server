@@ -287,6 +287,11 @@ CAS_ELIGIBILITY_REALM = get_from_env('CAS_ELIGIBILITY_REALM', "")
 CLEVER_CLIENT_ID = get_from_env('CLEVER_CLIENT_ID', "")
 CLEVER_CLIENT_SECRET = get_from_env('CLEVER_CLIENT_SECRET', "")
 
+# WP OAuth
+WP_OAUTH_CLIENT_ID = get_from_env('WP_OAUTH_CLIENT_ID', '')
+WP_OAUTH_CLIENT_SECRET = get_from_env('WP_OAUTH_CLIENT_SECRET', '')
+WP_OAUTH_ROOT_URI = get_from_env('WP_OAUTH_ROOT_URI', '')
+
 # email server
 EMAIL_HOST = get_from_env('EMAIL_HOST', 'localhost')
 EMAIL_PORT = int(get_from_env('EMAIL_PORT', "2525"))
