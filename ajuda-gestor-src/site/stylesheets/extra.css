@@ -1,0 +1,7 @@
+.md-header {
+  background-color: #0d4f4d;
+}
+
+.md-nav__link:focus, .md-nav__link:hover {
+  color: #32a541;
+}

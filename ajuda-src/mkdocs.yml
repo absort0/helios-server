@@ -3,22 +3,14 @@
 
 site_name: Helios - Sistema de votação eletrônica
 site_description: 'Ajuda do sistema de votação eletrônica'
-site_author: 'Instituto Federal de Santa Catarina'
-copyright: 'Copyright &copy; 2018 - IFSC'
+site_author: 'Ascema Nacional'
+copyright: 'Creative Commons 2020 - Ascema Nacional'
 
-pages:
+nav:
     - Como votar: index.md
+
+extra_css:
+  - stylesheets/extra.css
 
 theme:
   name: 'material'
-  include_sidebar: false
-  custom_dir: 'theme'
-  logo:
-    icon: 'home'
-  language: pt
-  font:
-    text: 'Roboto'
-    code: 'Roboto Mono'
-  extra:
-  search:
-    language: 'pt'
